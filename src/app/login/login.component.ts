@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import {CommonModule, NgOptimizedImage} from '@angular/common';
+import {CommonModule} from '@angular/common';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [FormsModule, CommonModule, NgOptimizedImage],
+  imports: [FormsModule, CommonModule],
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
 })
 export class LoginComponent {
-  imagePath = 'assets/images/logo-empresa.png';
+  imagePath = 'app/assets/images/logo-empresa.png';
   //alt: string;
 
   activeTab: 'login' | 'register' = 'login';
