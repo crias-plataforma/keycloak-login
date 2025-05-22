@@ -3,10 +3,14 @@
     <div class="auth-header">
       <img class="logo-img" [src]="imagePath" alt="Logo da empresa">
       <div class="auth-tabs">
-        <button class="tab-btn active" (click)="setActiveTab('login')">
+        <button class="tab-btn"
+                [class.active]="activeTab === 'login'"
+                (click)="setActiveTab('login')">
           Login
         </button>
-        <button class="tab-btn" (click)="setActiveTab('register')">
+        <button class="tab-btn"
+                [class.active]="activeTab === 'register'"
+                (click)="setActiveTab('register')">
           Cadastro
         </button>
       </div>
