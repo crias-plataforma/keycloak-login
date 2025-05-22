@@ -1,16 +1,26 @@
+body {
+  overflow-y: hidden; /* Remove scroll vertical global */
+  margin: 0;
+  height: 70vh;
+  background-color: #f5f5f5;
+}
+
 .auth-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #f5f5f5;
+  padding: 30px;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  max-height: 70vh;
   font-family: 'Segoe UI', Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 .auth-card {
   width: 100%;
   max-width: 420px;
-  min-height: 500px;
+  /*min-height: 500px;*/
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -19,7 +29,7 @@
 
 .auth-header {
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 
 .logo-img {

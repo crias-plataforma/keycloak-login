@@ -31,7 +31,8 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/app/login/login.component.css"
+              "src/app/login/login.component.css",
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -90,6 +91,8 @@
               }
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/app/login/login.component.css",
               "src/styles.css"
             ],
             "scripts": []
