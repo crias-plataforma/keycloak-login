@@ -20,11 +20,11 @@ body {
 .auth-card {
   width: 100%;
   max-width: 420px;
-  /*min-height: 500px;*/
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   padding: 30px;
+  margin-top: 100px;
 }
 
 .auth-header {
